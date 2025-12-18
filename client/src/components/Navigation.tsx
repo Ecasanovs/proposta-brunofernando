@@ -19,8 +19,8 @@ export default function Navigation() {
   }, []);
 
   const navLinks = [
-    { name: t.nav.biography, href: "#biography" },
-    { name: t.nav.statistics, href: "#statistics" },
+    { name: t.nav.bio, href: "#biography" },
+    { name: t.nav.stats, href: "#statistics" },
     { name: t.nav.awards, href: "#awards" },
     { name: t.nav.teams, href: "#teams" },
   ];
@@ -41,7 +41,7 @@ export default function Navigation() {
         <Link href="/">
           <div className="cursor-pointer group">
             <span className="font-display text-2xl md:text-3xl text-white tracking-wider group-hover:text-jordan-red transition-colors duration-300">
-              SM<span className="text-jordan-red">9</span>
+              BF<span className="text-jordan-red">20</span>
             </span>
           </div>
         </Link>

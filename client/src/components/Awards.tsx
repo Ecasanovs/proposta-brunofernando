@@ -55,8 +55,8 @@ export default function Awards() {
               {/* Dark overlay for better text readability on mobile scroll if this image is background */}
               <div className="absolute inset-0 bg-black/40 z-20 md:hidden"></div>
               <img 
-                src="/selton/vAAT4xEV511t.png" 
-                alt="Selton Miguel Portrait" 
+                src="/bruno/headshot.png" 
+                alt="Bruno Fernando Portrait" 
                 className="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-700"
               />
             </div>

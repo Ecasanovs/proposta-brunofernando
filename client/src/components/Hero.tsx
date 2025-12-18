@@ -13,8 +13,8 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent z-10"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/40 z-10"></div>
         <img 
-          src="/selton/3pnhTocSS41z.jpg" 
-          alt="Selton Miguel" 
+          src="/bruno/profile.png" 
+          alt="Bruno Fernando" 
           className="w-full h-full object-cover object-top opacity-60 grayscale md:grayscale-0"
         />
       </div>
@@ -29,7 +29,7 @@ export default function Hero() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="absolute left-0 top-1/2 -translate-y-1/2 text-[12rem] md:text-[25rem] lg:text-[35rem] font-display font-bold text-jordan-red/20 md:text-jordan-red/10 select-none pointer-events-none leading-none"
         >
-          9
+          20
         </motion.div>
 
         {/* Main Text Content */}
@@ -69,7 +69,7 @@ export default function Hero() {
             
             {/* Segundo achievement */}
             <div className="border-l-2 border-jordan-red pl-4">
-              <p className="text-white font-display text-2xl">MVP</p>
+              <Trophy className="text-white mb-2" size={24} strokeWidth={1.5} />
               <p className="text-gray-400 text-xs uppercase tracking-wider">{t.hero.achievement2.label}</p>
             </div>
             

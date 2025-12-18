@@ -1,143 +1,144 @@
 export const pt = {
   nav: {
-    biography: "biografia",
-    statistics: "estatísticas",
-    awards: "conquistas",
-    teams: "times"
+    logo: "BF20",
+    bio: "BIOGRAFIA",
+    stats: "ESTATÍSTICAS",
+    awards: "CONQUISTAS",
+    teams: "TIMES",
   },
   hero: {
-    subtitle: "A Estrela em Ascensão do Basquete Angolano",
-    title1: "HOLLYWOOD",
-    title2: "SELTON",
-    title3: "MIGUEL",
+    subtitle: "O PRIMEIRO ANGOLANO NA NBA",
+    title1: "BRUNO",
+    title2: "FERNANDO",
+    title3: "",
     achievement1: {
-      label: "Campeão AfroBasket 2025"
+      label: "CAMPEÃO AFROBASKET 2025",
     },
     achievement2: {
-      label: "MVP Barclays Center Classic"
+      label: "CAMPEÃO LIGA ACB",
     },
     achievement3: {
-      value: "75",
-      label: "Cestas de 3 Pontos Maryland"
+      value: "5",
+      label: "TEMPORADAS NBA",
     },
-    established: "est. 2000",
-    scroll: "Rolar"
+    established: "EST. 1998",
+    scroll: "ROLAR",
   },
   statistics: {
     title: "Estatísticas de",
     titleHighlight: "Carreira",
-    description: "Números que definem uma estrela em ascensão. Uma jornada de excelência do basquete universitário americano à glória continental africana.",
+    description: "Números que definem um pioneiro. O primeiro angolano na NBA, da universidade de Maryland aos maiores palcos do basquete mundial.",
     stat1: {
-      value: "10.7",
-      label: "PPG AfroBasket 2025"
+      value: "54.3%",
+      label: "Field Goal Percentage",
     },
     stat2: {
-      value: "11.6",
-      label: "PPG Maryland 2024-25"
+      value: "4.0",
+      label: "Pontos por Jogo NBA",
     },
     stat3: {
-      value: "75",
-      label: "Cestas de 3 Pontos Maryland"
+      value: "3.2",
+      label: "Rebotes por Jogo NBA",
     },
     stat4: {
-      label: "Campeão AfroBasket"
+      label: "Campeão AfroBasket",
     },
-    quote: "Representar Angola é a maior honra da minha vida",
-    bio1: "Selton Miguel é a nova geração do basquetebol angolano. Nascido em Luanda, sua jornada o levou de Portugal aos Estados Unidos, onde brilhou em três universidades diferentes - Kansas State, South Florida e Maryland.",
-    bio2: "Com um jogo ofensivo suave e vantagem defensiva, Selton conquistou o título do AfroBasket 2025 pela Seleção de Angola, marcando 12 pontos na final histórica. Sua trajetória inclui passagens pela NBA Summer League e G League, consolidando-se como um dos maiores talentos angolanos da atualidade."
+    quote: "Representar Angola na NBA é a maior honra da minha vida",
+    bio1: "Bruno Fernando é o primeiro jogador angolano na história da NBA. Nascido em Luanda, a sua jornada levou-o de Portugal aos Estados Unidos, onde brilhou na Universidade de Maryland antes de ser draftado em 2019.",
+    bio2: "Com passagens por Atlanta Hawks, Boston Celtics, Houston Rockets e Toronto Raptors, Bruno consolidou-se como um pivô defensivo confiável. Atualmente joga pelo Partizan na Europa, continuando a representar Angola com orgulho, tendo conquistado o AfroBasket 2025.",
   },
   awards: {
     title: "Hall da",
     titleHighlight: "Fama",
-    award1: "Campeão AfroBasket",
-    award2: "Sexto Homem do Ano AAC",
-    award3: "Jogador Mais Evoluído AAC",
-    award4: "Segunda Equipe All-AAC",
-    award5: "MVP Barclays Center Classic",
-    award6: "Prêmio Espírito Esportivo Big Ten",
-    award7: "NBA Summer League",
-    award7Year: "2025 - Utah Jazz",
-    award8: "NBA G League",
-    award8Year: "2025 - South Bay Lakers",
-    quote: "Representar Angola é a maior honra da minha vida. Cada conquista é para o nosso povo e para inspirar a próxima geração.",
-    quoteAuthor: "Selton Miguel"
+    award1: "First-Team All-Big Ten",
+    award2: "Big Ten All-Defensive Team",
+    award3: "Big Ten All-Freshman Team",
+    award4: "Campeão Liga ACB",
+    award5: "Campeão AfroBasket",
+    award6: "MVP FIBA Africa U18",
+    award7: "Draftado NBA 2ª Ronda",
+    award7Year: "2019 - 34ª escolha geral",
+    award8: "Contrato $10.9M NBA",
+    award8Year: "2022 - Houston Rockets",
+    quote: "Representar Angola na NBA é a maior honra da minha vida. Cada conquista é para o nosso povo e para inspirar a próxima geração.",
+    quoteAuthor: "Bruno Fernando",
   },
   teams: {
     title: "Jornada da",
     titleHighlight: "Carreira",
-    description: "De Luanda para o mundo. A trajetória de Selton Miguel pelos maiores palcos do basquete universitário americano, NBA e a glória continental africana.",
+    description: "De Luanda para o mundo. A trajetória de Bruno Fernando pelos maiores palcos do basquete universitário americano, NBA e Europa.",
     kansasState: {
-      name: "Kansas State Wildcats",
-      period: "2020 - 2022",
-      location: "Manhattan, Kansas",
-      achievements: [
-        "7.2 PPG como Freshman (2020-21)",
-        "Cesta Vencedora vs Omaha Mavericks",
-        "Primeiro Double-Double: 12 pts, 10 rebs",
-        "Career-High: 17 pontos"
-      ]
-    },
-    southFlorida: {
-      name: "South Florida Bulls",
-      period: "2022 - 2024",
-      location: "Tampa, Florida",
-      achievements: [
-        "Sexto Homem do Ano AAC (2024)",
-        "Jogador Mais Evoluído AAC (2024)",
-        "Segunda Equipe All-AAC (2024)",
-        "14.7 PPG em 2023-24"
-      ]
-    },
-    maryland: {
       name: "Maryland Terrapins",
-      period: "2024 - 2025",
+      period: "2017 - 2019",
       location: "College Park, Maryland",
       achievements: [
-        "11.6 PPG, 3.0 RPG",
-        "75 Cestas de 3 Pontos (7º na história)",
-        "MVP Barclays Center Classic",
-        "Prêmio Espírito Esportivo Big Ten"
-      ]
+        "First-Team All-Big Ten (2019)",
+        "Big Ten All-Defensive Team (2019)",
+        "Big Ten All-Freshman Team (2018)",
+        "10.3 PPG, 6.5 RPG (Freshman)",
+      ],
+    },
+    southFlorida: {
+      name: "Atlanta Hawks",
+      period: "2019 - 2021, 2023 - 2024",
+      location: "Atlanta, Georgia",
+      achievements: [
+        "Draftado 34ª escolha geral (2019)",
+        "Estreia NBA: 7 pts, 3 rebs, 2 asts",
+        "2 passagens pelo clube",
+        "G League: College Park Skyhawks",
+      ],
+    },
+    maryland: {
+      name: "Houston Rockets",
+      period: "2022 - 2023",
+      location: "Houston, Texas",
+      achievements: [
+        "Contrato 4 anos, $10.9M",
+        "Primeiro start: 7 pts, 9 rebs, 7 asts",
+        "Pivô defensivo titular",
+        "54.3% Field Goal Percentage",
+      ],
     },
     angola: {
       name: "Seleção de Angola",
-      period: "2015 - Presente",
+      period: "2014 - Presente",
       location: "Luanda, Angola",
       achievements: [
         "Campeão AfroBasket 2025",
-        "10.7 PPG no AfroBasket 2025",
-        "12 Pontos na Final vs Mali",
-        "Co-fundador da M3M Foundation"
-      ]
+        "All-Tournament Team AfroBasket 2025",
+        "MVP FIBA Africa U18 (2016)",
+        "Primeiro angolano na NBA",
+      ],
     },
     southBay: {
-      name: "South Bay Lakers",
-      period: "2025",
-      location: "Los Angeles, California",
+      name: "Real Madrid",
+      period: "Janeiro 2025",
+      location: "Madrid, Espanha",
       achievements: [
-        "NBA G League (Lakers Afiliado)",
-        "NBA Summer League - Utah Jazz",
-        "Undrafted Free Agent 2025",
-        "Caminho para a NBA"
-      ]
+        "Campeão Liga ACB 2025",
+        "EuroLeague",
+        "Experiência no maior clube europeu",
+        "Título continental",
+      ],
     },
     nevezis: {
-      name: "Nevėžis Kėdainiai",
-      period: "2025 - Presente",
-      location: "Kėdainiai, Lituânia",
+      name: "Partizan Mozzart Bet",
+      period: "Outubro 2025 - Presente",
+      location: "Belgrado, Sérvia",
       achievements: [
-        "Lithuanian Basketball League (LKL)",
-        "Experiência Internacional Profissional",
-        "Desenvolvimento Contínuo",
-        "Representante Angolano na Europa"
-      ]
-    }
+        "Basketball League of Serbia",
+        "ABA League",
+        "EuroLeague",
+        "Representante Angolano na Europa",
+      ],
+    },
   },
   footer: {
     tagline: "Página Oficial",
     copyright: "Todos os Direitos Reservados.",
     privacy: "Política de Privacidade",
     terms: "Termos de Uso",
-    contact: "Contato"
-  }
+    contact: "Contato",
+  },
 };

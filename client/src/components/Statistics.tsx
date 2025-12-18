@@ -64,8 +64,8 @@ export default function Statistics() {
           <div className="w-full lg:w-1/2 relative">
             <div className="absolute -inset-4 border border-jordan-red/30 z-0 translate-x-4 translate-y-4"></div>
             <img 
-              src="/selton/2Ltp1gzJPNUl.webp" 
-              alt="Selton Miguel em ação pela Seleção de Angola" 
+              src="/bruno/nba_action.png" 
+              alt="Bruno Fernando em ação pela Seleção de Angola" 
               className="w-full h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-700 relative z-10"
             />
           </div>
