@@ -1,22 +1,22 @@
-# Selton Miguel - Landing Page Profissional
+# Bruno Fernando - Landing Page
 
-Landing page moderna e responsiva para o jogador de basquete **Selton Miguel**, desenvolvida com Vite, React, TypeScript e TailwindCSS.
+> Landing page profissional para Bruno Fernando, o primeiro jogador angolano na história da NBA.
 
-## 🏀 Sobre o Projeto
+## 🏀 Sobre
 
-Este projeto apresenta a carreira profissional de Selton Miguel, jogador angolano que brilhou no basquete universitário americano e conquistou o AfroBasket 2025 pela Seleção de Angola.
+Bruno Fernando é um marco histórico do basquete angolano. Nascido em Luanda em 1998, tornou-se o primeiro jogador de Angola a jogar na NBA, sendo draftado em 2019 pelo Atlanta Hawks (34ª escolha geral).
 
-### ✨ Características
+## ✨ Características do Site
 
-- **Design Brutalista Esportivo Moderno**: Estética impactante com cores preto, vermelho e branco
-- **Internacionalização (i18n)**: Suporte completo para Português e Inglês
-- **Responsivo**: Otimizado para desktop, tablet e mobile
-- **Animações Suaves**: Implementadas com Framer Motion
-- **Performance**: Build otimizado com Vite
+- **Design Brutalismo Esportivo Moderno**: Visual impactante com cores preto, vermelho e branco
+- **Sistema Bilíngue**: Português e Inglês com troca instantânea
+- **Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
+- **Animações Suaves**: Framer Motion para transições elegantes
+- **Performance Otimizada**: Vite para build rápido e eficiente
 
 ## 🛠️ Tecnologias
 
-- **Frontend**: React 18 + TypeScript
+- **Framework**: React 18 + TypeScript
 - **Build Tool**: Vite
 - **Estilização**: TailwindCSS v4
 - **Componentes UI**: Radix UI + shadcn/ui
@@ -24,76 +24,67 @@ Este projeto apresenta a carreira profissional de Selton Miguel, jogador angolan
 - **Roteamento**: Wouter
 - **Ícones**: Lucide React
 
-## 📦 Instalação
+## 📊 Conquistas Destacadas
+
+- 🏆 Campeão AfroBasket 2025
+- 🏆 Campeão Liga ACB 2025 (Real Madrid)
+- 🏀 5 Temporadas na NBA
+- 🎓 First-Team All-Big Ten (2019)
+- 💰 Contrato de $10.9M com Houston Rockets (2022)
+- 🌟 MVP FIBA Africa U18 (2016)
+
+## 🏢 Times da Carreira
+
+1. **Maryland Terrapins** (2017-2019) - NCAA
+2. **Atlanta Hawks** (2019-2021, 2023-2024) - NBA
+3. **Houston Rockets** (2022-2023) - NBA
+4. **Seleção de Angola** (2014-Presente)
+5. **Real Madrid** (Janeiro 2025) - Liga ACB
+6. **Partizan Mozzart Bet** (Outubro 2025-Presente) - EuroLeague
+
+## 🚀 Como Executar
 
 ```bash
-# Clone o repositório
-git clone https://github.com/Ecasanovs/proposta1.git
-
-# Entre na pasta do projeto
-cd proposta1
-
-# Instale as dependências
+# Instalar dependências
 pnpm install
 
-# Execute o servidor de desenvolvimento
+# Executar em desenvolvimento
 pnpm dev
-```
 
-O projeto estará disponível em `http://localhost:3000`
-
-## 🚀 Build para Produção
-
-```bash
-# Gerar build otimizado
+# Build para produção
 pnpm build
 
 # Preview do build
 pnpm preview
 ```
 
-## 📂 Estrutura do Projeto
+## 📦 Deploy
 
-```
-proposta1/
-├── client/
-│   ├── public/
-│   │   └── selton/          # Imagens do jogador
-│   ├── src/
-│   │   ├── components/      # Componentes React
-│   │   ├── i18n/           # Traduções PT/EN
-│   │   ├── pages/          # Páginas da aplicação
-│   │   └── lib/            # Utilitários
-│   └── index.html
-├── package.json
-└── vite.config.ts
-```
+O site está configurado para deploy na Vercel:
 
-## 🌐 Seções do Site
+1. Conecte o repositório à Vercel
+2. Configure o build command: `pnpm build`
+3. Configure o output directory: `dist/public`
+4. Deploy automático a cada push
 
-1. **Hero**: Apresentação principal com nome e conquistas
-2. **Estatísticas**: Números da carreira profissional
-3. **Conquistas**: Hall da fama com prêmios e títulos
-4. **Times**: Jornada pelos clubes e seleção
-5. **Footer**: Redes sociais e informações de contato
+## 🎨 Seções do Site
 
-## 🎨 Paleta de Cores
-
-- **Preto**: `#050505` - Cor principal de fundo
-- **Vermelho**: `#D6001C` - Cor de destaque (Jordan Red)
-- **Branco**: `#FFFFFF` - Textos e elementos
-- **Ouro**: `#C5A059` - Detalhes especiais
+- **Hero**: Apresentação impactante com conquistas principais
+- **Estatísticas**: Números da carreira NBA e internacional
+- **Hall da Fama**: Prêmios e reconhecimentos
+- **Jornada da Carreira**: Times e conquistas em cada clube
+- **Footer**: Links de redes sociais e informações
 
 ## 📱 Redes Sociais
 
-- Instagram: [@hollywood.sel](https://www.instagram.com/hollywood.sel/)
-- Twitter: [@selton_miguel](https://twitter.com/selton_miguel)
+- Instagram: [@the_angolan_bf](https://www.instagram.com/the_angolan_bf/)
+- Twitter: [@bruno_fernando](https://twitter.com/bruno_fernando)
 
-## 📄 Licença
+## 📝 Licença
 
-© 2025 Selton Miguel. Todos os direitos reservados.
+© 2025 Bruno Fernando. Todos os direitos reservados.
 
 ---
 
-**Desenvolvido por**: Ecasanova  
+**Desenvolvido por**: Evandro Casanova  
 **Contato**: contato@evandrocasanova.com
