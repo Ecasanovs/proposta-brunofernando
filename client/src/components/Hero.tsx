@@ -59,7 +59,7 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.2, duration: 1 }}
-            className="flex flex-row flex-wrap gap-6 md:gap-8 mt-8 md:mt-12"
+            className="flex flex-col md:flex-row flex-wrap gap-6 md:gap-8 mt-8 md:mt-12"
           >
             {/* Primeiro achievement - ícone acima, texto abaixo */}
             <div className="border-l-2 border-jordan-red pl-4">
