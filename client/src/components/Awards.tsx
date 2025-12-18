@@ -9,17 +9,19 @@ const AwardItem = ({ title, year, icon: Icon, delay }: { title: string; year: st
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6, delay }}
-      className="group relative flex items-center gap-6 p-6 border-b border-white/10 hover:bg-white/5 transition-colors duration-300 cursor-pointer"
+      className="group relative flex flex-col md:flex-row md:items-center gap-3 md:gap-6 p-4 md:p-6 border-b border-white/10 hover:bg-white/5 transition-colors duration-300 cursor-pointer md:bg-transparent md:backdrop-blur-none"
     >
-      <div className="text-gray-500 group-hover:text-jordan-red transition-colors duration-300">
+      {/* Blur background - only on mobile */}
+      <div className="absolute inset-0 bg-black/40 backdrop-blur-md rounded-lg md:hidden z-0"></div>
+      <div className="text-gray-500 group-hover:text-jordan-red transition-colors duration-300 relative z-10 flex-shrink-0">
         <Icon size={32} strokeWidth={1.5} />
       </div>
-      <div className="flex-1">
-        <h3 className="font-display text-2xl md:text-3xl text-white uppercase group-hover:translate-x-2 transition-transform duration-300">
+      <div className="flex-1 relative z-10 md:flex-1">
+        <h3 className="font-display text-lg md:text-2xl lg:text-3xl text-white uppercase group-hover:translate-x-2 transition-transform duration-300">
           {title}
         </h3>
       </div>
-      <div className="text-gray-500 font-body text-sm md:text-base group-hover:text-white transition-colors duration-300">
+      <div className="text-gray-500 font-body text-xs md:text-sm lg:text-base group-hover:text-white transition-colors duration-300 relative z-10 md:flex-shrink-0">
         {year}
       </div>
       
