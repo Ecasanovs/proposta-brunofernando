@@ -16,12 +16,12 @@ const AwardItem = ({ title, year, icon: Icon, delay }: { title: string; year: st
       <div className="text-gray-500 group-hover:text-jordan-red transition-colors duration-300 relative z-10 flex-shrink-0">
         <Icon size={32} strokeWidth={1.5} />
       </div>
-      <div className="flex-1 relative z-10 md:flex-1">
+      <div className="relative z-10 w-full md:flex-1">
         <h3 className="font-display text-lg md:text-2xl lg:text-3xl text-white uppercase group-hover:translate-x-2 transition-transform duration-300">
           {title}
         </h3>
       </div>
-      <div className="text-gray-500 font-body text-xs md:text-sm lg:text-base group-hover:text-white transition-colors duration-300 relative z-10 md:flex-shrink-0">
+      <div className="text-gray-500 font-body text-xs md:text-sm lg:text-base group-hover:text-white transition-colors duration-300 relative z-10 md:flex-shrink-0 text-left md:text-right">
         {year}
       </div>
       
