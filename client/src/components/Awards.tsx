@@ -39,9 +39,9 @@ export default function Awards() {
   return (
     <section id="awards" className="bg-black py-24 relative">
       <div className="container">
-        <div className="flex flex-col md:flex-row gap-16">
-          {/* Left Column: Title & Image */}
-          <div className="w-full md:w-1/3 sticky top-24 h-fit">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-16">
+          {/* Left Column: Title & Image - Hidden on mobile */}
+          <div className="w-full md:w-1/3 sticky top-24 h-fit hidden md:block">
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -65,8 +65,19 @@ export default function Awards() {
           </div>
 
           {/* Right Column: Awards List */}
-          <div className="w-full md:w-2/3 pt-8 md:pt-24">
-            <div className="flex flex-col">
+          <div className="w-full md:w-2/3 pt-0 md:pt-24">
+            {/* Mobile Title */}
+            <motion.h2 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="font-display text-4xl md:text-7xl text-white uppercase leading-none mb-6 md:hidden"
+            >
+              {t.awards.title} <br />
+              <span className="text-jordan-red">{t.awards.titleHighlight}</span>
+            </motion.h2>
+            
+            <div className="flex flex-col w-full">
               <AwardItem title={t.awards.award1} year="2025" icon={Crown} delay={0.1} />
               <AwardItem title={t.awards.award2} year="2024" icon={Trophy} delay={0.2} />
               <AwardItem title={t.awards.award3} year="2024" icon={Star} delay={0.3} />
